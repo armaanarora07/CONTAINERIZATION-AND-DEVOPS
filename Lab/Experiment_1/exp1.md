@@ -121,48 +121,6 @@ vagrant destroy
 
 ---
 
-## Part B: Containers using Docker (WSL)
-
-### Step 1: Run Ubuntu Container with Nginx
-
-Pull and run an Ubuntu container with Nginx:
-
-```bash
-docker run -d -p 8080:80 --name nginx-container nginx
-```
-
-### Step 2: Verify Container
-
-Verify the container is running:
-
-```bash
-docker ps
-curl localhost:8080
-```
-
-### Step 3: Stop and Remove Container
-
-```bash
-docker stop nginx-container
-docker rm nginx-container
-```
-
-![Container Setup](8.png)
-
----
-
-## Comparison: VMs vs Containers
-
-| Feature | Virtual Machine | Container |
-|---------|-----------------|-----------|
-| **Boot Time** | Minutes | Seconds |
-| **Resource Usage** | High (full OS) | Low (shared kernel) |
-| **Isolation** | Complete | Process-level |
-| **Image Size** | GBs | MBs |
-| **Portability** | Limited | High |
-| **Performance** | Near-native with overhead | Near-native |
-
----
 
 ## Result
 
