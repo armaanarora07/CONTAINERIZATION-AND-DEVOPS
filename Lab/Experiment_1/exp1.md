@@ -12,6 +12,7 @@
 4. To deploy an Ubuntu-based Nginx web server in both environments.
 5. To compare resource utilization, performance, and operational characteristics of VMs and Containers.
 
+
 ---
 
 ## Procedure
@@ -26,7 +27,7 @@
 2. Run the installer and keep default options.
 3. Restart the system if prompted.
 
-![Install VirtualBox](1.png)
+![Experiment Overview](0.1.png)
 
 ---
 
@@ -40,7 +41,7 @@
 vagrant --version
 ```
 
-![Install Vagrant](2.png)
+![Install VirtualBox and Vagrant](1.png)
 
 ---
 
@@ -52,6 +53,8 @@ vagrant --version
 mkdir vm-lab
 cd vm-lab
 ```
+
+![Create directory](2.png)
 
 2. Initialize Vagrant with Ubuntu box:
 
@@ -101,7 +104,7 @@ Verify Nginx is running:
 curl localhost
 ```
 
-![Verify Nginx](6.2.png)
+![Verify Nginx](7.png)
 
 ---
 
@@ -114,7 +117,7 @@ vagrant halt
 vagrant destroy
 ```
 
-![Stop and Remove VM](7.png)
+![Stop and Remove VM](8.png)
 
 ---
 
@@ -148,6 +151,18 @@ docker rm nginx-container
 
 ---
 
+## Comparison: VMs vs Containers
+
+| Feature | Virtual Machine | Container |
+|---------|-----------------|-----------|
+| **Boot Time** | Minutes | Seconds |
+| **Resource Usage** | High (full OS) | Low (shared kernel) |
+| **Isolation** | Complete | Process-level |
+| **Image Size** | GBs | MBs |
+| **Portability** | Limited | High |
+| **Performance** | Near-native with overhead | Near-native |
+
+---
 
 ## Result
 
