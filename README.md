@@ -21,6 +21,9 @@ For experiments and theory demonstration of CONTAINERIZATION AND DEVOPS subject
 | 1 | [Comparison of VMs and Containers](Lab/Experiment_1/exp1.md) | Compare Virtual Machines and Containers using Ubuntu and Nginx |
 | 2 | [Docker Installation, Configuration, and Running Images](Lab/Experiment_2/exp2.md) | Pull Docker images, run containers, and manage container lifecycle |
 | 3 | [Comparing NGINX Deployment: Official Image vs Custom Builds](Lab/Experiment_3/exp3.md) | Deploy NGINX using official and custom Docker images (Ubuntu & Alpine), compare sizes and layers |
+| 4 | [Dockerizing a Python Flask Application](Lab/Experiment_4/exp4/experiment-4-docker-essentials.md) | Build and containerize a Flask app with Dockerfile, dependencies, and runtime configuration |
+| 5 | [Docker Networking, Volumes, and Container Communication](Lab/Experiment_5/intro.md) | Demonstrate container networking, shared storage, and inter-container communication workflows |
+| 6 | [Docker Run vs Docker Compose and Multi-Container Applications](Lab/Experiment_6/exp6.md) | Compare docker run and compose, perform conversion tasks, and deploy WordPress + MySQL with scaling |
 
 
 
