@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  prodapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prod-node-app
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./app.js:/app/app.js
