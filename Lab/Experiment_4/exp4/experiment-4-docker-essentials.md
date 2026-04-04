@@ -285,10 +285,7 @@ docker pull username/my-flask-app:latest
 
 # Run the pulled image
 docker run -d -p 5000:5000 username/my-flask-app:latest
-```
-![](Dockerpull.png)
-![](run5000.png)
----
+
 
 ## **Part 7: Node.js Example (Quick Version)**
 
