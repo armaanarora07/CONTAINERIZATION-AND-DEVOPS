@@ -27,4 +27,8 @@ For experiments and theory demonstration of CONTAINERIZATION AND DEVOPS subject
 
 
 
+| 8 | [Chef - Configuration Management](Lab/Experiment_8/exp8.md) | Implement configuration management using Chef (Chef Solo & Chef Server) |
+
+
+
 
