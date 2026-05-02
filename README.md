@@ -28,6 +28,7 @@ For experiments and theory demonstration of CONTAINERIZATION AND DEVOPS subject
 
 
 | 8 | [Chef - Configuration Management](Lab/Experiment_8/exp8.md) | Implement configuration management using Chef (Chef Solo & Chef Server) |
+| 9 | [Docker Compose — Practical Exercises](Lab/Experiment_9/exp9.md) | Practical Docker Compose tasks and multi-container examples |
 
 
 
