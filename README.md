@@ -24,11 +24,12 @@ For experiments and theory demonstration of CONTAINERIZATION AND DEVOPS subject
 | 4 | [Dockerizing a Python Flask Application](Lab/Experiment_4/exp4/experiment-4-docker-essentials.md) | Build and containerize a Flask app with Dockerfile, dependencies, and runtime configuration |
 | 5 | [Docker Networking, Volumes, and Container Communication](Lab/Experiment_5/intro.md) | Demonstrate container networking, shared storage, and inter-container communication workflows |
 | 6 | [Docker Run vs Docker Compose and Multi-Container Applications](Lab/Experiment_6/exp6.md) | Compare docker run and compose, perform conversion tasks, and deploy WordPress + MySQL with scaling |
-
-
-
+| 7 | [CI/CD Pipeline using Jenkins, GitHub and Docker Hub](Lab/Experiment_7/exp7.md) | Implement a CI/CD pipeline using Jenkins integrated with GitHub and Docker Hub |
 | 8 | [Chef - Configuration Management](Lab/Experiment_8/exp8.md) | Implement configuration management using Chef (Chef Solo & Chef Server) |
 | 9 | [Docker Compose — Practical Exercises](Lab/Experiment_9/exp9.md) | Practical Docker Compose tasks and multi-container examples |
+| 10 | [SonarQube – Static Code Analysis](Lab/Experiment_10/exp10.md) | Perform static code analysis on Java applications using SonarQube to detect bugs, vulnerabilities, and code quality issues |
+| 11 | [Orchestration using Docker Compose & Docker Swarm](Lab/Experiment_11/exp11.md) | Understand container orchestration by deploying with Docker Swarm, scaling services, and observing self-healing behavior |
+| 12 | [Kubernetes – Container Orchestration](Lab/Experiment_12/exp12.md) | Deploy, expose, scale, and verify applications using Kubernetes |
 
 
 
